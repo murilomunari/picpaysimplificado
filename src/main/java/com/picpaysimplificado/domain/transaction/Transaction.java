@@ -28,7 +28,7 @@ public class Transaction {
     private User sender;
 
     @ManyToOne
-    @JoinColumn(name = "teceiver_id")
+    @JoinColumn(name = "receiver_id")
     private User receiver;
 
     private LocalDate timestamp;
